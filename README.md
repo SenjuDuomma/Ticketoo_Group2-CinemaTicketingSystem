@@ -17,7 +17,9 @@
  #7. Create a database with name "ticketoo"
 
  #8. Go to import tab and upload ticketoo_db.sql file (given inside the zip package in SQL file folder). Then click "Go" at the bottom right corner
+ 
+ #9. Open the xampp control panel in your xampp directory and start the Apache and MySQL modules
 
- #9. Run the script http://localhost/Ticketoo_Group2-CinemaTicketingSystem in your browser (preferably Chrome)
+ #10. Run the script http://localhost/Ticketoo_Group2-CinemaTicketingSystem in your browser (preferably Chrome)
 
 
