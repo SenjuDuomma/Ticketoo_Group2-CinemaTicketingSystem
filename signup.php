@@ -34,11 +34,23 @@
             echo "<p>Username already taken, try again!</p>";
         }
         elseif ($_GET["error"] == "none") {
-            echo "<p>You have signed up!</p>";
+            echo "<p>You have signed up!</p>";?>
+
+            <div>
+            <button onclick="login()">Log-in</button>
+            </div>
+            
+    <?php
         }
-        # code...
     }
-    ?>   
+    ?>
+    
+    <script>
+        function login() {
+        location.replace("login.php")
+        }
+
+        </script>
     </section>
    
 

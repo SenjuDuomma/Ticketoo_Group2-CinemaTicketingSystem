@@ -49,7 +49,7 @@
                             <option value="4">Cinema 4</option>
                         </select><br><br>
                         <button type="submit" name="Book" value="<?php echo $_GET['movie_id'] ?>">Book</button>
-                        <input type="reset"><button onclick="exitBtn()">Exit</button>
+                        <input type="reset"><button type="button" onclick="exitBtn()">Cancel</button>
                     </form>
                 </div>
                     </td>

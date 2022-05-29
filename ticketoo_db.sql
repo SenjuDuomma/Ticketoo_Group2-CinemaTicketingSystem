@@ -7,7 +7,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE `movies` (
-  `moveID` int(30) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `movieID` int(30) PRIMARY KEY AUTO_INCREMENT NOT NULL,
   `title` text NOT NULL,
   `cover_img` text NOT NULL,
   `duration` float NOT NULL,
@@ -43,8 +43,7 @@ CREATE TABLE `reservation` (
   
 );
 
-INSERT INTO `reservation` (`usersID`, `cinemaID`,`movieID`, `quantity`, `contactNum`,  `total_price`, `date`, `time`) VALUES
-(1, 1, 1, 5,'09655905597' , '1000', '2022-06-15', '09:00:00');
+
 
 CREATE TABLE `cinema` (
   `cinemaID` int(4) PRIMARY KEY AUTO_INCREMENT NOT NULL,
